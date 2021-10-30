@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 
 def hello_world(request):
-    return HttpResponse('Hello World!')
+    return HttpResponse('Initial setup for flightcheck77/pragmatic2')
