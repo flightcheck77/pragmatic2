@@ -4,8 +4,6 @@
     <list default="true" id="ece46073-4c10-44fb-94bf-57634cb0155f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accountapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accountapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accountapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accountapp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pragmatic2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pragmatic2/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
