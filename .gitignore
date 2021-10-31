@@ -61,3 +61,11 @@ desktop.ini
 *.sublime-workspace
 
 venv/
+
+.idea
+
+__pycache__/
+
+db.sqlite3
+
+migrations/
