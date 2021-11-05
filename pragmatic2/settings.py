@@ -58,6 +58,7 @@ INSTALLED_APPS = [
     'accountapp',
     'environ',
     'bootstrap4',
+    'profileapp'
 ]
 
 MIDDLEWARE = [
