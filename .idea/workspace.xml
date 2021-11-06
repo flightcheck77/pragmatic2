@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ece46073-4c10-44fb-94bf-57634cb0155f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pragmatic2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pragmatic2/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pragmatic2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pragmatic2/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accountapp/templates/accountapp/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/accountapp/templates/accountapp/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profileapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/profileapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profileapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/profileapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,11 +34,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/profileapp/templates/profileapp" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\github\pragmatic2\profileapp\templates\profileapp" />
       <recent name="C:\github\pragmatic2\static\fonts" />
       <recent name="C:\github\pragmatic2\accountapp" />
     </key>
