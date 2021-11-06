@@ -19,7 +19,7 @@ from accountapp.views import hello_world, AccountCreateView, AccountDetailView, 
 from django.contrib.auth.views import LoginView, LogoutView
 
 
-app_name = "accountapp"
+app_name = 'accountapp'
 
 urlpatterns = [
     path('hello_world/', hello_world, name='hello_world'),
