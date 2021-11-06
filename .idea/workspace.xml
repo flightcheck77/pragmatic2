@@ -5,8 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accountapp/templates/accountapp/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/accountapp/templates/accountapp/detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pragmatic2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pragmatic2/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profileapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/profileapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profileapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/profileapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
