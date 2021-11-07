@@ -1,11 +1,11 @@
+from articleapp.models import Article
 from django.http import HttpResponseForbidden
-from profileapp.models import Profile
 
 
-def profile_ownership_required(func):
+def article_ownership_required(func):
     def decorated(request, *args, **kwargs):
-        profile = Profile.objects.get(pk=kwargs['pk'])
-        if not profile.user == request.user:
+        article = Article.objects.get(pk=kwargs['pk'])
+        if not article.writer == request.user:
             return HttpResponseForbidden()
         return func(request, *args, **kwargs)
 

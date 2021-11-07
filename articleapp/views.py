@@ -1,10 +1,11 @@
 # from django.shortcuts import render
-from django.views.generic import CreateView, DetailView
+from django.views.generic import CreateView, DetailView, UpdateView, DeleteView
 from articleapp.forms import ArticleCreationForm
 from articleapp.models import Article
 from django.utils.decorators import method_decorator
 from django.contrib.auth.decorators import login_required
-from django.urls import reverse
+from articleapp.decorators import article_ownership_required
+from django.urls import reverse, reverse_lazy
 
 
 @method_decorator(login_required, 'get')
@@ -31,6 +32,22 @@ class ArticleDetailView(DetailView):
     template_name = 'articleapp/detail.html'
 
 
+@method_decorator(article_ownership_required, 'get')
+@method_decorator(article_ownership_required, 'post')
+class ArticleUpdateView(UpdateView):
+    model = Article
+    context_object_name = 'target_article'
+    form_class = ArticleCreationForm
+    template_name = 'articleapp/update.html'
+
+    def get_success_url(self):
+        return reverse('articleapp:detail', kwargs={'pk': self.object.pk})
 
 
-
+@method_decorator(article_ownership_required, 'get')
+@method_decorator(article_ownership_required, 'post')
+class ArticleDeleteView(DeleteView):
+    model = Article
+    context_object_name = 'target_article'
+    success_url = reverse_lazy('articleapp:list')
+    template_name = 'articleapp/delete.html'
