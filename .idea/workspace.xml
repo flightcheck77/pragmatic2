@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ece46073-4c10-44fb-94bf-57634cb0155f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articleapp/decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/articleapp/decorators.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/articleapp/templates/articleapp/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/articleapp/templates/articleapp/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articleapp/templates/articleapp/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/articleapp/templates/articleapp/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/articleapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/articleapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/articleapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/articleapp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profileapp/decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/profileapp/decorators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profileapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/profileapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -37,7 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/articleapp/templates/articleapp" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -46,6 +48,9 @@
       <recent name="C:\github\pragmatic2\profileapp" />
       <recent name="C:\github\pragmatic2\profileapp\templates\profileapp" />
       <recent name="C:\github\pragmatic2\static\fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\github\pragmatic2\articleapp\templates\snippets" />
     </key>
   </component>
   <component name="RunManager" selected="Python.manage">
