@@ -11,9 +11,6 @@ from accountapp.decorators import account_ownership_required
 from django.utils.decorators import method_decorator
 
 
-# def hello_world(request):
-#     return HttpResponse('Initial setup for flightcheck77/pragmatic2')
-
 has_ownership = [account_ownership_required, login_required]
 
 
@@ -25,8 +22,6 @@ def hello_world(request):
         new_hello_world = HelloWorld()
         new_hello_world.text = temp
         new_hello_world.save()
-
-        # hello_world_list = HelloWorld.objects.all()
 
         return HttpResponseRedirect(reverse('accountapp:hello_world'))
     else:

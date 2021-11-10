@@ -6,6 +6,8 @@ from articleapp.models import Article
 from django.utils.decorators import method_decorator
 from django.contrib.auth.decorators import login_required
 from articleapp.decorators import article_ownership_required
+from django.views.generic.edit import FormMixin
+from commentapp.forms import CommentCreationForm
 
 
 @method_decorator(login_required, 'get')
@@ -15,9 +17,9 @@ class ArticleCreateView(CreateView):
     form_class = ArticleCreationForm
     template_name = 'articleapp/create.html'
 
-    def form_invalid(self, form):
+    def form_valid(self, form):
         temp_article = form.save(commit=False)
-        temp_article.write = self.request.user
+        temp_article.writer = self.request.user
         temp_article.save()
 
         return super().form_valid(form)
@@ -26,8 +28,9 @@ class ArticleCreateView(CreateView):
         return reverse('articleapp:detail', kwargs={'pk': self.object.pk})
 
 
-class ArticleDetailView(DetailView):
+class ArticleDetailView(DetailView, FormMixin):
     model = Article
+    form_class = CommentCreationForm
     context_object_name = 'target_article'
     template_name = 'articleapp/detail.html'
 
