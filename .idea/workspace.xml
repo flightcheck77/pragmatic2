@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="ece46073-4c10-44fb-94bf-57634cb0155f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articleapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/articleapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articleapp/templates/articleapp/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/articleapp/templates/articleapp/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accountapp/templates/accountapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/accountapp/templates/accountapp/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commentapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/commentapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commentapp/templates/commentapp/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/commentapp/templates/commentapp/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commentapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/commentapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commentapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/commentapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,16 +37,16 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/commentapp/templates/commentapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/commentapp" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\github\pragmatic2\commentapp" />
       <recent name="C:\github\pragmatic2\commentapp\templates\commentapp" />
       <recent name="C:\github\pragmatic2\articleapp\templates\articleapp" />
       <recent name="C:\github\pragmatic2\articleapp" />
       <recent name="C:\github\pragmatic2\profileapp" />
-      <recent name="C:\github\pragmatic2\profileapp\templates\profileapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\github\pragmatic2\articleapp\templates\snippets" />
