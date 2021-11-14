@@ -3,14 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ece46073-4c10-44fb-94bf-57634cb0155f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accountapp/templates/accountapp/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/accountapp/templates/accountapp/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accountapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accountapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articleapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/articleapp/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articleapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/articleapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articleapp/templates/snippets/card.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/snippets/card.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articleapp/templates/snippets/card_project.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/snippets/card_project.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articleapp/templates/snippets/pagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/snippets/pagination.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pragmatic2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pragmatic2/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pragmatic2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pragmatic2/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projectapp/templates/projectapp/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/projectapp/templates/projectapp/detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projectapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectapp/views.py" afterDir="false" />
     </list>
@@ -22,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
