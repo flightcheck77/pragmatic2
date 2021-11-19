@@ -16,6 +16,8 @@ RUN pip install mysqlclient
 
 RUN echo "SECRET_KEY=django-insecure-s%!o)1%co5fzyriok6e^ct)y9*a%w+dqy4le()62s)a^+b1+1_" > .env
 
+RUN export DJANGO_SETTINGS_MODULE=pragmatic2.settings
+
 RUN python manage.py collectstatic
 
 EXPOSE 8000
