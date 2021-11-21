@@ -125,3 +125,6 @@ LOGOUT_REDIRECT_URL = reverse_lazy('accountapp:login')
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+SITE_ID=1
+
