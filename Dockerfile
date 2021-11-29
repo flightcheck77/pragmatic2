@@ -2,7 +2,7 @@ FROM python:3.9.0
 
 WORKDIR /home/
 
-RUN echo "testing"
+RUN echo "testing123"
 
 RUN git clone https://github.com/flightcheck77/pragmatic2.git
 
@@ -13,6 +13,8 @@ RUN pip install -r requirements.txt
 RUN pip install gunicorn
 
 RUN pip install mysqlclient
+
+RUN export DJANGO_SETTINGS_MODULE=pragmatic2.settings
 
 EXPOSE 8000
 
