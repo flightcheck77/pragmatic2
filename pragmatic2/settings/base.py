@@ -11,8 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
-import os
-import environ
+import os, environ
 from django.urls import reverse, reverse_lazy
 
 
@@ -126,5 +125,5 @@ LOGOUT_REDIRECT_URL = reverse_lazy('accountapp:login')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-SITE_ID = 1
+# SITE_ID = 1
 
