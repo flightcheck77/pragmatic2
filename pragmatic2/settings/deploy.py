@@ -2,10 +2,10 @@ from .base import *
 
 
 def read_secret(secret_name):
-    file1 = open('/run/secrets/' + secret_name)
-    secret = file1.read()
+    file = open('/run/secrets/' + secret_name)
+    secret = file.read()
     secret = secret.rstrip().lstrip()
-    file1.close()
+    file.close()
     return secret
 
 
