@@ -14,8 +14,6 @@ RUN pip install gunicorn
 
 RUN pip install mysqlclient
 
-RUN export DJANGO_SETTINGS_MODULE=pragmatic2.settings
-
 EXPOSE 8000
 
 CMD ["bash", "-c", "python manage.py collectstatic --noinput --settings=pragmatic2.settings.deploy && python manage.py migrate --settings=pragmatic2.settings.deploy && gunicorn pragmatic2.wsgi --env DJANGO_SETTINGS_MODULE=pragmatic2.settings.deploy --bind 0.0.0.0:8000"]
