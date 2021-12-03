@@ -33,7 +33,7 @@ services:
             MYSQL_DATABASE: django
             MYSQL_USER: django
             MYSQL_PASSWORD_FILE: /run/secrets/MYSQL_PASSWORD
-            MYSQL_ROOT_PASSWORD_FILE: run/secrets/MYSQL_ROOT_PASSWORD
+            MYSQL_ROOT_PASSWORD_FILE: /run/secrets/MYSQL_ROOT_PASSWORD
 
 networks:
     network:
