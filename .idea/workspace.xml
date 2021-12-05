@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ece46073-4c10-44fb-94bf-57634cb0155f" name="Changes" comment="" />
+    <list default="true" id="ece46073-4c10-44fb-94bf-57634cb0155f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accountapp/templates/accountapp/hello_world.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/articleapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/articleapp/models.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,16 +32,16 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/accountapp" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\github\pragmatic2\accountapp" />
+      <recent name="C:\github\pragmatic2\articleapp\migrations" />
       <recent name="C:\github\pragmatic2" />
       <recent name="C:\github\pragmatic2\pragmatic2" />
       <recent name="C:\github\pragmatic2\projectapp\templates\projectapp" />
-      <recent name="C:\github\pragmatic2\commentapp" />
-      <recent name="C:\github\pragmatic2\commentapp\templates\commentapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\github\pragmatic2\pragmatic2\settings" />
