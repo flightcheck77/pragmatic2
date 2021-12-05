@@ -49,5 +49,9 @@ DATABASES = {
         'PASSWORD': read_secret('MYSQL_PASSWORD'),
         'HOST': 'mariadb',
         'PORT': '3306',
+        'OPTIONS': {
+            'init_command': 'SET innodb_strict_mode=1',
+            'sql_mode': 'traditional',
+        }
     }
 }

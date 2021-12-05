@@ -16,8 +16,11 @@ class Article(models.Model):
     class Meta:
         ordering = ('-created_at',)
 
-    def __str__(self):
-        return Article.content
+    # def __str__(self):
+    #     return Article.content
 
-    # 1146
+    # class Meta:
+    #     abstract = True
+
+
 
