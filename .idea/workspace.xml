@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ece46073-4c10-44fb-94bf-57634cb0155f" name="Changes" comment="" />
+    <list default="true" id="ece46073-4c10-44fb-94bf-57634cb0155f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/articleapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/articleapp/models.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

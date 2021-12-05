@@ -19,3 +19,5 @@ class Article(models.Model):
     def __str__(self):
         return Article.content
 
+    # 1146
+
