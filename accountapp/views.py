@@ -20,6 +20,9 @@ class AccountCreateView(CreateView):
     form_class = UserCreationForm
     template_name = 'accountapp/create.html'
 
+    def get_success_url(self):
+        return reverse('accountapp:login')
+
 
 class AccountDetailView(DetailView, MultipleObjectMixin):
     model = User
