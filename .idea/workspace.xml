@@ -4,13 +4,20 @@
     <list default="true" id="ece46073-4c10-44fb-94bf-57634cb0155f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accountapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accountapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articleapp/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commentapp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/articleapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/articleapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articleapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/articleapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articleapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/articleapp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profileapp/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectapp/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscribeapp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pragmatic2/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/pragmatic2/settings/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pragmatic2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pragmatic2/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profileapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/profileapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subscribeapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/subscribeapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subscribeapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/subscribeapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/head.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,16 +45,16 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pragmatic3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/footimgapp" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\github\pragmatic2\footimgapp" />
+      <recent name="C:\github\pragmatic2\footimgapp\templates\footimgapp" />
+      <recent name="C:\github\pragmatic2\static" />
       <recent name="C:\github\pragmatic2\accountapp" />
       <recent name="C:\github\pragmatic2\articleapp\migrations" />
-      <recent name="C:\github\pragmatic2" />
-      <recent name="C:\github\pragmatic2\pragmatic2" />
-      <recent name="C:\github\pragmatic2\projectapp\templates\projectapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\github\pragmatic2\pragmatic2\settings" />
