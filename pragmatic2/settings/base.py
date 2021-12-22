@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'projectapp',
     'subscribeapp',
     'footimgapp',
+    'likeapp',
 ]
 
 MIDDLEWARE = [
@@ -48,6 +49,11 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+from django.contrib.messages import constants as messages
+MESSAGE_TAGS = {
+    messages.ERROR: 'danger',
+}
 
 ROOT_URLCONF = 'pragmatic2.urls'
 
