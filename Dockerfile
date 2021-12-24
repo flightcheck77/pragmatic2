@@ -2,7 +2,7 @@ FROM python:3.9.0
 
 WORKDIR /home/
 
-RUN echo "testing20211219_6"
+RUN echo "testing20211219_7"
 
 RUN git clone https://github.com/flightcheck77/pragmatic2.git
 
