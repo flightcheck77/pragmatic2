@@ -25,28 +25,31 @@
         }
 
       </style>
+    {% if user.is_authenticated %}
+        {% if project_list %}
+            <div class="container">
+                {% for project in project_list %}
+                    <a href="{% url 'projectapp:detail' pk=project.pk %}">
+                        {% include 'snippets/card_project.html' with project=project %}
+                    </a>
+                {% endfor %}
+            </div>
+            <script src="{% static 'js/magicgrid.js' %}"></script>
+        {% else %}
+            <div class="text-center">
+                <h1>No Project YET!</h1>
+            </div>
+        {% endif %}
 
-    {% if project_list %}
-        <div class="container">
-            {% for project in project_list %}
-                <a href="{% url 'projectapp:detail' pk=project.pk %}">
-                    {% include 'snippets/card_project.html' with project=project %}
-                </a>
-            {% endfor %}
+        {% include 'snippets/pagination.html' with page_obj=page_obj %}
+
+        <div style="text-align: center">
+            <a href="{% url 'projectapp:create' %}" class="btn btn-dark btn-sm rounded-pill mt-3 mb-3 px-4">
+                Create Project
+            </a>
         </div>
-        <script src="{% static 'js/magicgrid.js' %}"></script>
     {% else %}
-        <div class="text-center">
-            <h1>No Project YET!</h1>
-        </div>
+        <h1 class="text-center">under Construction!!!</h1>
     {% endif %}
-
-    {% include 'snippets/pagination.html' with page_obj=page_obj %}
-
-    <div style="text-align: center">
-        <a href="{% url 'projectapp:create' %}" class="btn btn-dark btn-sm rounded-pill mt-3 mb-3 px-4">
-            Create Project
-        </a>
-    </div>
 
 {% endblock %}

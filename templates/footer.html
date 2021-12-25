@@ -1,36 +1,39 @@
 {% load static %}
 <div class="pragmatic2_footer">
-    <div class="pragmatic2_footer_button">
-<!--        {% if target_user.footimg %}-->
-<!--            <img src="{{ target_user.footimg.image1.url }}" alt=""-->
-<!--                     style="height: 6rem; width: 6rem; border-radius: 20rem; margin-bottom: 2rem; object-fit: cover;">-->
-<!--            <img src="{{ target_user.footimg.image2.url }}" alt=""-->
-<!--                     style="height: 6rem; width: 6rem; border-radius: 20rem; margin-bottom: 2rem; object-fit: cover;">-->
-<!--            <img src="{{ target_user.footimg.image3.url }}" alt=""-->
-<!--                     style="height: 6rem; width: 6rem; border-radius: 20rem; margin-bottom: 2rem; object-fit: cover;">-->
-<!--        {% endif %}-->
-    </div>
-    <div>
-        <a href="{% url 'projectapp:list' %}">
-            <img src="{% static 'juwon2.png' %}" style="height: 6rem; width: 6rem; border-radius: 20rem; margin-bottom: .2rem; object-fit: cover;">
-        </a>
-        <a href="{% url 'projectapp:list' %}">
-            <img src="{% static 'noyul.png' %}" style="height: 6rem; width: 6rem; border-radius: 20rem; margin-bottom: .2rem; object-fit: cover;">
-        </a>
-        <a href="{% url 'projectapp:list' %}">
-            <img src="{% static 'minseo2.png' %}" style="height: 6rem; width: 6rem; border-radius: 20rem; margin-bottom: .2rem; object-fit: cover;"> </br>
-        </a>
-            <span>Kim Juwon</span>&nbsp; | &nbsp;
-            <span>Kim Noyul</span>&nbsp; | &nbsp;
-            <span>Kim Minseo</span>
-    </div>
-    <div style="margin-top:1rem;">
-        {% if user.is_authenticated and user.is_superuser %}
-            <a href="{% url 'footimgapp:create' %}">
-                <h6 class="pragmatic2_logo">Junomin</h6>
+    {% if user.is_authenticated %}
+        <div class="pragmatic2_footer_button">
+    <!--        {% if target_user.footimg %}-->
+    <!--            <img src="{{ target_user.footimg.image1.url }}" alt=""-->
+    <!--                     style="height: 6rem; width: 6rem; border-radius: 20rem; margin-bottom: 2rem; object-fit: cover;">-->
+    <!--            <img src="{{ target_user.footimg.image2.url }}" alt=""-->
+    <!--                     style="height: 6rem; width: 6rem; border-radius: 20rem; margin-bottom: 2rem; object-fit: cover;">-->
+    <!--            <img src="{{ target_user.footimg.image3.url }}" alt=""-->
+    <!--                     style="height: 6rem; width: 6rem; border-radius: 20rem; margin-bottom: 2rem; object-fit: cover;">-->
+    <!--        {% endif %}-->
+        </div>
+        <div>
+            <a href="{% url 'projectapp:list' %}">
+                <img src="{% static 'juwon2.png' %}" style="height: 6rem; width: 6rem; border-radius: 20rem; margin-bottom: .2rem; object-fit: cover;">
             </a>
-        {% else %}
-            <h6 class="pragmatic2_logo">Junomin</h6>
-        {% endif %}
-    </div>
+            <a href="{% url 'projectapp:list' %}">
+                <img src="{% static 'noyul.png' %}" style="height: 6rem; width: 6rem; border-radius: 20rem; margin-bottom: .2rem; object-fit: cover;">
+            </a>
+            <a href="{% url 'projectapp:list' %}">
+                <img src="{% static 'minseo2.png' %}" style="height: 6rem; width: 6rem; border-radius: 20rem; margin-bottom: .2rem; object-fit: cover;"> </br>
+            </a>
+                <span>Kim Juwon</span>&nbsp; | &nbsp;
+                <span>Kim Noyul</span>&nbsp; | &nbsp;
+                <span>Kim Minseo</span>
+
+        </div>
+        <div style="margin-top:1rem;">
+            {% if user.is_authenticated and user.is_superuser %}
+                <a href="{% url 'footimgapp:create' %}">
+                    <h6 class="pragmatic2_logo">Junomin</h6>
+                </a>
+            {% else %}
+                <h6 class="pragmatic2_logo">Junomin</h6>
+            {% endif %}
+        </div>
+    {% endif %}
 </div>
