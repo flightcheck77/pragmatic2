@@ -10,6 +10,8 @@ from accountapp.decorators import account_ownership_required
 from django.utils.decorators import method_decorator
 from django.views.generic.list import MultipleObjectMixin
 from articleapp.models import Article
+from django.dispatch import receiver
+from django.db.models.signals import pre_save
 
 
 has_ownership = [account_ownership_required, login_required]
@@ -19,6 +21,14 @@ class AccountCreateView(CreateView):
     model = User
     form_class = UserCreationForm
     template_name = 'accountapp/create.html'
+
+    @receiver(pre_save, sender=User)
+    def set_new_user_inactive(sender, instance, **kwargs):
+        if instance._state.adding is True:
+            print("Creating Inactive User")
+            instance.is_active = False
+        else:
+            print("Updating User Record")
 
     def get_success_url(self):
         return reverse('accountapp:login')
