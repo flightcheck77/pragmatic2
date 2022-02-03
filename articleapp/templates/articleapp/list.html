@@ -29,6 +29,13 @@
 
       </style>
     {% if user.is_authenticated %}
+        {% include 'snippets/pagination.html' with page_obj=page_obj %}
+
+        <div style="text-align: center">
+            <a href="{% url 'articleapp:create' %}" class="btn btn-dark btn-sm rounded-pill mt-3 mb-3 px-4">
+                Create Article
+            </a>
+        </div>
         {% if article_list %}
             <div class="container">
                 {% for article in article_list %}
